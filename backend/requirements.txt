@@ -1,0 +1,6 @@
+FastAPI
+uvicorn
+python-multipart
+pydantic
+Pillow
+numpy
