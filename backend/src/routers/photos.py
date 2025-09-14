@@ -10,7 +10,9 @@ router = APIRouter()
 async def upload_photo(file: UploadFile = File(...)):
     # Read the image file
     contents = await file.read()
+    # print(contents)
     image = Image.open(io.BytesIO(contents))
+    print(image)
 
     # Process the uploaded photo using the custom AI model
     analytics_result = analyze_photo(image)

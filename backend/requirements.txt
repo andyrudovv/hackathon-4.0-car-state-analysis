@@ -6,4 +6,5 @@ Pillow
 numpy
 timm
 torch
+albumentations
 torchvision
