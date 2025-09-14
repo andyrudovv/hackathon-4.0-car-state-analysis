@@ -4,3 +4,6 @@ python-multipart
 pydantic
 Pillow
 numpy
+timm
+torch
+torchvision
